@@ -1,0 +1,316 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: white;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: anivers-sc;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+.icon-link {
+
+		> svg {
+		
+			path {
+				fill: currentColor;
+			}
+		
+		}
+}
+
+.icon--email {
+		color: $grey-color;
+}
+
+
+/**
+ * Home page layout
+ */
+
+#name-box {
+		display:block; 
+		text-align:center;
+		max-width:300px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: $spacing-unit / 2; 
+		border-bottom: 2px solid $grey-color-light;
+}
+
+#info-box {
+		display: block;
+		margin-top: $spacing-unit; 
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		padding:1em 1.5em 1em 1.5em; 
+		border-radius:25px; 
+		background-color: $grey-color-ultra-light;
+		overflow: hidden;
+}
+
+#me {
+		max-width:200px; 
+		width:24%; 
+		display:inline; 
+		border:thin black solid;
+		clear: none;
+		margin-left:1.5%; 
+}
+
+#research-focus {
+		display:inline; 
+		float:right; 
+		width:70%;
+}
+
+
+
+/** 
+ * Directions on contact page.
+ */
+.direction-box {
+		margin-top: $spacing-unit; 
+		padding:2em;
+		background-color: $grey-color-ultra-light;
+		border-radius: 25px; 
+		overflow: hidden; 
+}
+
+/**
+ * For responsive embedded maps. 
+ * see: http://www.labnol.org/internet/embed-responsive-google-maps/28333/
+ */
+.map {
+  	position: relative;
+  	padding-bottom: 50%; // This is the aspect ratio
+    overflow: hidden;
+    width: 48%; 
+    height: 0;
+    
+    display: inline-block;
+	
+		iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+        
+    @include media-query($on-laptop) {
+     		width: 95% !important;
+    		height: 95% !important;
+    		margin-bottom: $spacing-unit;
+    }
+}
+
+.directions {
+		width: 48%; 
+		float:right; 
+		display:inline-block;
+		
+		@include media-query($on-laptop) {
+				width: 100%;
+		} 
+}

@@ -1,0 +1,41 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Sean Chester, Assistant Professor, UVic
+author: schester
+email: schester@uvic.ca
+description: > # this means to ignore newlines until "baseurl:"
+  The personal, academic webpage for Sean Chester, Assistant Professor
+  at the University of Victoria (UVic). This site 
+  highlights recent research and provides open-access author preprints.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sean-chester.github.io" # the base hostname & protocol for your site
+repository: sean-chester/sean-chester.github.io
+twitter_username: schester_
+twitter:
+  username: schester_
+github_username:  sean-chester
+scholar_username: ZxNF5OYAAAAJ
+orcid_username: 0000-0002-1065-605X
+linkedin_username: sean-chester-24a2311a
+google_site_verification: v47833PE1BNhMRvPyy3gqvFr_k9dfDy8fBGMboEV3eI
+social:
+  name: Sean Chester
+  links:
+    - https://twitter.com/schester_
+    - https://www.linkedin.com/in/seanchester/
+    - https://github.com/sean-chester
+logo: /assets/images/UVic_logo.png
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
