@@ -1,57 +1,36 @@
-# The Plain Academic
+# Minimalist Hugo Template for Academic Websites
 
-> The Plain Academic is a minimalist Jekyll theme, ideally designed for your academic site. This theme is a modified version of the [The Plain](https://github.com/heiswayi/the-plain).
+This repository contains the source code to https://pascalmichaillat.org: an academic website created with Hugo, PaperMod, and GitHub Pages. The code is publicly available as a template repository so anyone can generate a new repository with the same directory structure and files, and quickly create their own academic website. The code might also be helpful to anyone who wishes to learn about Hugo or wants to recreate specific features of this website.
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg)
+## Documentation
 
-- **Demo:** https://brenov.github.io/the-plain-academic/
+The source code is documented at https://pascalmichaillat.org/d5/.
 
-![SCREENSHOT](img/img1.png)
+## Infrastructure
 
-![SCREENSHOT](img/img2.png)
+The website is built using the following software and services:
 
-![SCREENSHOT](img/img3.png)
++ [Hugo](https://gohugo.io) – A very fast, open-source static website generator 
++ [PaperMod](https://github.com/adityatelange/hugo-PaperMod) – A minimalist, fast, and flexible Hugo theme
++ [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) and [GitHub Actions](https://gohugo.io/hosting-and-deployment/hosting-on-github/) – A simple way to deploy a website hosted in a GitHub repository
++ [Google Domains](https://domains.google) – A simple way to register your domain name and [link it to your website](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages) 
 
-![SCREENSHOT](img/img4.png)
+## Features
 
-![SCREENSHOT](img/img5.png)
+The PaperMod theme is modified in several ways to be more adapted to academic websites:
 
-![SCREENSHOT](img/img6.png)
-
-![SCREENSHOT](img/img7.png)
-
-![SCREENSHOT](img/img8.png)
-
-### On GitHub
-
-GitHub - for your user account pages or repository gh-pages - only supports a limited set of themes.
-
-Therefore, you need to use the 'remote\_theme:' setting instead of 'theme:', which is supported by [a 3rd party plugin](https://github.com/benbalter/jekyll-remote-theme).
-
-Put this in your *Gemfile*:
-
-	gem 'jekyll-remote-theme'
-
-and run `bundle install` to install the plugin.
-
-Add the following to your site's *_config.yml* to activate the plugin and to select this theme:
-
-	plugins:
-	  - jekyll-remote-theme
-
-	remote_theme: heiswayi/the-plain
-
-This will grab the theme directly from the GitHub repo.
-
-Now copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
-
-## Authors
-
-- [**Breno Viana**](https://brenomfviana.github.io/);
-- [**Heiswayi Nrird**](https://heiswayi.nrird.com) (the author of [The Plain](https://github.com/heiswayi/the-plain)).
-
-See also the list of [contributors](https://github.com/brenov/the-plain-academic/graphs/contributors) who participated in the this project.
++ Organization of the pages in three categories: papers, courses, and design projects. It is easy to add new categories from here (code, data, and so on). The three categories are available from any page through the menu and from the home page through buttons.
++ Two automatically generated lists added to the menu:
+    * [Tags](https://pascalmichaillat.org/tags/) – List of all the keywords for papers and courses
+    * [Archive](https://pascalmichaillat.org/archive/) – Chronological list of all papers, courses, and design projects
+    * A search page could also be added
++ New social icons specific to academia: icon for office hours, icon for Zoom, and icon for Substack, and improved icon for Google Scholar
++ Footer providing easy access to email address and newsletter
++ Page metadata tailored to the academic context: simpler date format, permalink on pages
++ Personalized color scheme, font, and general appearance
++ New archetypes for paper pages and course pages
 
 ## License
 
-This project is licensed under MIT license - see the [MIT](LICENSE) file for details.
++ The code used to generate this website is licensed under the terms of the MIT License.
++ Except where otherwise noted, the content of this website was created by Pascal Michaillat and is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
