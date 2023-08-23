@@ -230,7 +230,7 @@ pre {
 #name-box {
 		display:block; 
 		text-align:center;
-		max-width:300px;
+		max-width:600px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom: $spacing-unit / 2; 
@@ -250,10 +250,10 @@ pre {
 }
 
 #me {
-		max-width:800px; 
+		max-width:600px; 
 		width:66%; 
 		display:inline; 
-		border:thin black solid;
+		//border:thin black solid;
 		clear: none;
 		margin-left:1.5%; 
 }
