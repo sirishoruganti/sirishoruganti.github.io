@@ -307,7 +307,7 @@ pre {
 
 .directions {
 		width: 48%; 
-		float:right; 
+		float: right; 
 		display:inline-block;
 		
 		@include media-query($on-laptop) {
