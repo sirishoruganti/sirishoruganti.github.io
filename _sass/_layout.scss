@@ -2,10 +2,12 @@
  * Site header
  */
 .site-header {
+    
     font-family: $ss-font-family;
     border-top: 5px solid $grey-color;
     border-bottom: 1px solid $brand-color;
     min-height: 56px;
+    background-color: $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -18,10 +20,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $grey-color
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $visited;
     }
 }
 
