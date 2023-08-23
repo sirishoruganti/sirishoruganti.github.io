@@ -9,6 +9,7 @@
 //$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$base-font-family: alwyn-new-web, Helvetica, Arial, serif;
 $base-font-family: 'Crimson Text', serif;
+$ss-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 $base-font-size:   22px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.75;
@@ -19,7 +20,6 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-
 $grey-color:       #828282;
 $grey-color-ultra-light: lighten($grey-color, 100%);
 $grey-color-light: lighten($grey-color, 40%);
