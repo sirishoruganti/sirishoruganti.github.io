@@ -69,7 +69,7 @@
         }
     }
 
-    @include media-query(only screen and #{$on-palm})  {
+    @include media-query($on-palm)  {
         .trigger {
             display: none;
             position: absolute;
