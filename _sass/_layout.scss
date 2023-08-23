@@ -14,7 +14,7 @@
     top: 0;
     left: 0;          /* This positions the navbar to start from the left */
     width: 100%;      /* This ensures the navbar stretches across the entire viewport */
-    z-index: 999;    /* This ensures the navbar stays above other page elements */
+    z-index: 900;    /* This ensures the navbar stays above other page elements */
 
 }
 
@@ -50,7 +50,7 @@
     top: 0;           /* This positions the navbar at the top */
     left: 0;          /* This positions the navbar to start from the left */
     width: 100%;      /* This ensures the navbar stretches across the entire viewport */
-    z-index: 1000;    /* This ensures the navbar stays above other page elements */
+    z-index: 990;    /* This ensures the navbar stays above other page elements */
     /* Other existing styles for the navbar, if any */
 
     .menu-icon {
@@ -83,7 +83,7 @@
         .page-link {
             display: none;  // Hide regular nav items on small screens
         }
-        
+
         .menu-icon.active + .trigger {
             display: block;
         }
