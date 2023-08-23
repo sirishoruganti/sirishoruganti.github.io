@@ -1,4 +1,4 @@
-# sean-chester.github.io
+# sirishoruganti.github.io
 _Personal academic webpage, served with GitHub Pages and Jekyll_
 
 This is a single-contributor repository to serve up my personal academic webpage. 
@@ -7,7 +7,7 @@ as long as you immediately, recursively delete all contents of the _assets/_ dir
 I am highly unlikely to accept pull requests: 
 please contact me in advance if you are compelled to create one. 
 
-**View the website in the wild**: http://sean-chester.github.io.
+**View the website in the wild**: http://www.sirishoruganti.com.
 
 
 ## License

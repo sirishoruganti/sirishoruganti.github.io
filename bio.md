@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Sean Chester - Biography
+title: sirishoruganti - Biography
 description: >
-  A brief biography of Dr. Sean Chester, assistant professor at the 
-  University of Victoria (UVic) in Victoria, BC, Canada. 
+  A brief biography of Sirish Oruganti
 heading: Biography
 nav-title: Biography
 permalink: /bio/
 order: 2
 seo:
-  name: Sean Chester
-  links: ["https://plus.google.com/+SeanChester",
-  "https://no.linkedin.com/in/seanchester",
+  name: sirishoruganti
+  links: ["https://plus.google.com/sirishoruganti",
+  "https://linkedin.com/in/sirishoruganti",
   "http://www.ntnu.edu/employees/seanwc"]
 ---
 Dr. Sean Chester is an assistant professor in Computer science at the University of Victoria in Canada. He specialises in _data management on 
