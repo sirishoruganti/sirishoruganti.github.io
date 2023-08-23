@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    font-family: $ss-font-family
+    font-family: $ss-font-family;
     border-top: 5px solid $grey-color;
     border-bottom: 1px solid $brand-color;
     min-height: 56px;
@@ -34,7 +34,7 @@
     }
 
     .page-link {
-        font-family: $ss-font-family
+        font-family: $ss-font-family;
         color: $text-color;
         line-height: $base-line-height;
 
@@ -100,7 +100,7 @@
  * Three-column contact info layout
  */
 .site-footer {
-    font-family: $ss-font-family
+    font-family: $ss-font-family;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
