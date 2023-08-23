@@ -70,6 +70,10 @@
     }
 
     @include media-query($on-palm)  {
+        .menu-icon {
+            display: block;
+        }
+    
         .trigger {
             display: none;
             position: absolute;
