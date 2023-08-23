@@ -30,6 +30,12 @@
 .site-nav {
     text-align: center;
     line-height: 56px;
+    position: fixed;  /* This keeps the navbar fixed on the page */
+    top: 0;           /* This positions the navbar at the top */
+    left: 0;          /* This positions the navbar to start from the left */
+    width: 100%;      /* This ensures the navbar stretches across the entire viewport */
+    z-index: 1000;    /* This ensures the navbar stays above other page elements */
+    /* Other existing styles for the navbar, if any */
 
     .menu-icon {
         display: none;
