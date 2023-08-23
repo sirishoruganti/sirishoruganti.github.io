@@ -35,8 +35,10 @@
 .navbar-left {
     float: left;               /* This aligns it to the left of the navbar */
     padding: 10px;             /* Add some padding for spacing */
-    font-weight: bold;         /* Make the name stand out */
-    text-transform: uppercase; /* Optional: Convert text to uppercase */
+    line-height: 56px;
+    font-weight: 500;         /* Make the name stand out */
+    text-transform: small-caps; /* Optional: Convert text to uppercase */
+    color: $background-color
 }
 
 .site-nav {
