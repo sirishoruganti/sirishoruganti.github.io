@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    
+
     font-family: $ss-font-family;
     border-top: 5px solid $grey-color;
     border-bottom: 5px solid $brand-color;
@@ -12,9 +12,12 @@
     // Positioning context for the mobile navigation icon
     position: fixed;
     top: 0;
-    left: 0;          /* This positions the navbar to start from the left */
-    width: 100%;      /* This ensures the navbar stretches across the entire viewport */
-    z-index: 900;    /* This ensures the navbar stays above other page elements */
+    left: 0;
+    /* This positions the navbar to start from the left */
+    width: 100%;
+    /* This ensures the navbar stretches across the entire viewport */
+    z-index: 900;
+    /* This ensures the navbar stays above other page elements */
 
 }
 
@@ -32,73 +35,121 @@
     }
 }
 
+.menu-icon {
+    display: none; // Hidden by default
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 1002;
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.nav-links {
+    display: none; // Hidden by default on mobile
+    text-align: center;
+    line-height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 990;
+    background-color: $grey-color; // You might want to adjust this
+}
 
 .navbar-left {
     color: $background-color;
-    float: left;               /* This aligns it to the left of the navbar */
-    padding: 10px;             /* Add some padding for spacing */
-    font-weight: 400;         /* Make the name stand out */
+    float: left;
+    /* This aligns it to the left of the navbar */
+    padding: 10px;
+    /* Add some padding for spacing */
+    font-weight: 400;
+    /* Make the name stand out */
     font-size: 26px;
-    text-transform: small-caps; /* Optional: Convert text to uppercase */
+    text-transform: small-caps;
+    /* Optional: Convert text to uppercase */
     color: $background-color;
 }
 
 .site-nav {
     text-align: center;
     line-height: 56px;
-    position: fixed;  /* This keeps the navbar fixed on the page */
-    top: 0;           /* This positions the navbar at the top */
-    left: 0;          /* This positions the navbar to start from the left */
-    width: 100%;      /* This ensures the navbar stretches across the entire viewport */
-    z-index: 990;    /* This ensures the navbar stays above other page elements */
+    position: fixed;
+    /* This keeps the navbar fixed on the page */
+    top: 0;
+    /* This positions the navbar at the top */
+    left: 0;
+    /* This positions the navbar to start from the left */
+    width: 100%;
+    /* This ensures the navbar stretches across the entire viewport */
+    z-index: 990;
+    /* This ensures the navbar stays above other page elements */
     /* Other existing styles for the navbar, if any */
+}
 
-    .menu-icon {
-        display: none;
-        position: fixed; // This will make it fixed on the screen.
-        top: 15px;       // Adjust the top position as needed.
-        right: 15px;     // Position it towards the right.
-        z-index: 1002;   // Ensure it stays above other elements.
-        svg {
-            width: 30px;    // Adjust width and height as needed.
-            height: 30px;
-        }
-    }
+.page-link {
+    font-family: $ss-font-family;
+    color: $background-color;
+    line-height: $base-line-height;
+    font-weight: 200;
 
-    .page-link {
-        font-family: $ss-font-family;
-        color: $background-color;
-        line-height: $base-line-height;
-        font-weight: 200;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm)  {
-        .menu-icon {
-            display: block;
-        }
-    
-        .trigger {
-            display: none;
-            position: absolute;
-            top: 60px; // adjust if your navbar's height is different
-            background-color: $background-color; // match the navbar's background color
-            // Remove the width: 100%; if you don't want it to span the entire viewport width
-            // Add some padding for spacing
-            padding: 10px; 
-            z-index: 1001; // Ensure it's above other navbar elements
-        }    
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+        margin-right: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .menu-icon {
+        display: block; // Shown on smaller screens
+    }
+}
+
+// For screens 768px and larger
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-links {
+        display: block;
+    }
+}
+
+// @include media-query($on-palm) {
+//     .menu-icon {
+//         display: block;
+//     }
+
+//     .trigger {
+//         display: none;
+//         position: absolute;
+//         top: 60px; // adjust if your navbar's height is different
+//         background-color: $background-color; // match the navbar's background color
+//         // Remove the width: 100%; if you don't want it to span the entire viewport width
+//         // Add some padding for spacing
+//         padding: 10px;
+//         z-index: 1001; // Ensure it's above other navbar elements
+//     }
+// }
+
+// @include media-query($from-palm) {
+//     .menu-icon {
+//         display: none;
+//     }
+
+//     .nav-links {
+//         display: block;
+//     }
+// }
 
 
 .page-link.active {
     //background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
-    color: $brand-color !important;  // Adjust according to your preferred active link color.
+    color: $brand-color !important; // Adjust according to your preferred active link color.
     //font-weight: 600;
     z-index: 1000;
     text-decoration: underline;
@@ -131,7 +182,7 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-    border-bottom: 2px solid $grey-color-light; 
+    border-bottom: 2px solid $grey-color-light;
 }
 
 .contact-col {
@@ -142,29 +193,30 @@
 
 .contact-col-1 {
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: calc(30% - (#{$spacing-unit} / 2));
 }
 
 .contact-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .contact-col-3 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
+
     .contact-col-1,
     .contact-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -172,11 +224,11 @@
     .contact-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
-.inline-social{
+.inline-social {
     display: inline;
 }
 
@@ -186,7 +238,7 @@
  * Page content
  */
 .page-content {
-		border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color-light;
     background-color: $background-color;
     padding: $spacing-unit 0;
 }
@@ -199,7 +251,7 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    >li {
         margin-bottom: $spacing-unit;
     }
 }
