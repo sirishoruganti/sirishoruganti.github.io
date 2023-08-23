@@ -61,19 +61,7 @@
         font-family: $ss-font-family;
         color: $background-color;
         line-height: $base-line-height;
-        font-weight: 400;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    .page-link.active {
-        font-family: $ss-font-family;
-        color: $brand-color;
-        line-height: $base-line-height;
-        font-weight: 400;
+        font-weight: 200;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
