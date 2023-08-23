@@ -139,7 +139,7 @@
 
 .page-link.active {
     //background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
-    color: $background-color !important; // Adjust according to your preferred active link color.
+    color: $brand-color !important; // Adjust according to your preferred active link color.
     //font-weight: 600;
     z-index: 1000;
     text-decoration: underline $brand-color;
