@@ -9,7 +9,7 @@
 //$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$base-font-family: alwyn-new-web, Helvetica, Arial, serif;
 $base-font-family: 'Crimson Text', serif;
-$ss-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+$ss-font-family: "Fira Sans", sans-serif;
 $base-font-size:   22px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.75;
@@ -55,4 +55,4 @@ $on-laptop:        1200px;
         "syntax-highlighting"
 ;
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text|Fira+Sans');
