@@ -8,7 +8,6 @@
     border-bottom: 5px solid $brand-color;
     min-height: 56px;
     background-color: $grey-color;
-    color: $background-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -21,7 +20,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: $background-color;
 
     &,
     &:visited {
@@ -39,12 +37,16 @@
 
     .page-link {
         font-family: $ss-font-family;
-        color: $text-color;
+        color: $background-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+        &,
+        &:visited {
+        color: $visited;
         }
     }
 
