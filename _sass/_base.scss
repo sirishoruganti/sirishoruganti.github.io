@@ -261,13 +261,13 @@ pre {
 #circular-frame {
     max-width:600px; 
     width:60%;
-    border-radius: 50%; /* This makes the frame circular */
+    border-radius: 10%; /* This makes the frame circular */
     display:inline; 
     clear: none;
     overflow: hidden; /* This hides any content of the image that might overflow the circular frame */
     position: relative; /* Required for absolute positioning */
     margin-left:1.5%; 
-    
+
     &::before {
       content: "";
       position: absolute;
@@ -275,7 +275,7 @@ pre {
       height: 100%;
       background: inherit;
       border-radius: inherit;
-      backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+      backdrop-filter: blur(100px); /* Adjust the blur radius as needed */
       z-index: -1;
     }
   
