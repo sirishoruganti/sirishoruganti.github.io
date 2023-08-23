@@ -33,6 +33,7 @@
     }
 
     .page-link {
+        font-family: $ss-font-family
         color: $text-color;
         line-height: $base-line-height;
 
@@ -98,11 +99,13 @@
  * Three-column contact info layout
  */
 .site-footer {
+    font-family: $ss-font-family
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
+    font-family: $ss-font-family
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
