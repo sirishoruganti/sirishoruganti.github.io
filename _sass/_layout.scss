@@ -141,8 +141,8 @@
     //background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
     color: $brand-color !important; // Adjust according to your preferred active link color.
     //font-weight: 600;
-    z-index: 1000;
-    text-decoration: underline $brand-color;
+    z-index: 1200;
+    text-decoration: underline;
 }
 
 
