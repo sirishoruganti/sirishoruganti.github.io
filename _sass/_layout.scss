@@ -33,13 +33,13 @@
 }
 
 .navbar-left {
-    color: $background-color
+    color: $background-color;
     float: left;               /* This aligns it to the left of the navbar */
     padding: 10px;             /* Add some padding for spacing */
     font-weight: 500;         /* Make the name stand out */
     font-size: 26px;
     text-transform: small-caps; /* Optional: Convert text to uppercase */
-    color: $background-color
+    color: $background-color;
 }
 
 .site-nav {
