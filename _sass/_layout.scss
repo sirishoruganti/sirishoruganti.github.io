@@ -32,6 +32,13 @@
     }
 }
 
+.navbar-left {
+    float: left;               /* This aligns it to the left of the navbar */
+    padding: 10px;             /* Add some padding for spacing */
+    font-weight: bold;         /* Make the name stand out */
+    text-transform: uppercase; /* Optional: Convert text to uppercase */
+}
+
 .site-nav {
     text-align: center;
     line-height: 56px;
@@ -41,13 +48,6 @@
     width: 100%;      /* This ensures the navbar stretches across the entire viewport */
     z-index: 1000;    /* This ensures the navbar stays above other page elements */
     /* Other existing styles for the navbar, if any */
-
-    .navbar-left {
-        float: left;               /* This aligns it to the left of the navbar */
-        padding: 10px;             /* Add some padding for spacing */
-        font-weight: bold;         /* Make the name stand out */
-        text-transform: uppercase; /* Optional: Convert text to uppercase */
-    }
 
     .menu-icon {
         display: none;
