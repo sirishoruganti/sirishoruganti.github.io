@@ -55,6 +55,14 @@
 
     .menu-icon {
         display: none;
+        position: fixed; // This will make it fixed on the screen.
+        top: 15px;       // Adjust the top position as needed.
+        right: 15px;     // Position it towards the right.
+        z-index: 1002;   // Ensure it stays above other elements.
+        svg {
+            width: 30px;    // Adjust width and height as needed.
+            height: 30px;
+        }
     }
 
     .page-link {
