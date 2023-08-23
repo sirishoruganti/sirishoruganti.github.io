@@ -83,6 +83,9 @@
         }
     }
 }
+.menu-icon {
+    display: block !important;
+}
 
 .page-link.active {
     background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
