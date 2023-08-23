@@ -10,7 +10,12 @@
     background-color: $grey-color;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;          /* This positions the navbar to start from the left */
+    width: 100%;      /* This ensures the navbar stretches across the entire viewport */
+    z-index: 999;    /* This ensures the navbar stays above other page elements */
+
 }
 
 .site-title {
