@@ -74,19 +74,12 @@
             display: none;
             position: absolute;
             top: 60px; // adjust if your navbar's height is different
-            width: 100%;
             background-color: $background-color; // match the navbar's background color
-        }
-        .menu-icon {
-            display: block;  // Show the menu icon on small screens
-        }
-        .page-link {
-            display: none;  // Hide regular nav items on small screens
-        }
-
-        .menu-icon.active + .trigger {
-            display: block;
-        }
+            // Remove the width: 100%; if you don't want it to span the entire viewport width
+            // Add some padding for spacing
+            padding: 10px; 
+            z-index: 1001; // Ensure it's above other navbar elements
+        }    
     }
 }
 
