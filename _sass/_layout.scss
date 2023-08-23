@@ -93,13 +93,18 @@
 
 .page-link {
     font-family: $ss-font-family;
-    color: $background-color;
+    color: $background-color !important;
     line-height: $base-line-height;
     font-weight: 200;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
         margin-right: 20px;
+    }
+
+    &:hover {
+        color: $background-color; // Replace with the color you want for hover
+        text-decoration: underline;
     }
 }
 
