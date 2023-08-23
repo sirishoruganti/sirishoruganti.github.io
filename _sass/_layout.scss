@@ -70,65 +70,24 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $grey-color;
-        border: 1px solid $grey-color;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-            background-color: $grey-color;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
         .trigger {
-            clear: both;
             display: none;
+            position: absolute;
+            top: 60px; // adjust if your navbar's height is different
+            width: 100%;
+            background-color: $background-color; // match the navbar's background color
         }
-
-        &:hover .trigger {
+        
+        .menu-icon.active + .trigger {
             display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-
-        .menu-left {
-            color: $background-color;
-            float: left;               /* This aligns it to the left of the navbar */
-            //padding: 10px;             /* Add some padding for spacing */
-            font-weight: 400;         /* Make the name stand out */
-            text-transform: small-caps; /* Optional: Convert text to uppercase */
-            color: $background-color;
         }
     }
 }
 
+.page-link.active {
+    background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
+    color: $text-color;  // Adjust according to your preferred active link color.
+}
 
 
 /**
