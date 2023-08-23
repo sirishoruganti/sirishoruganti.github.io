@@ -32,6 +32,7 @@
     }
 }
 
+
 .navbar-left {
     color: $background-color;
     float: left;               /* This aligns it to the left of the navbar */
@@ -59,6 +60,18 @@
     .page-link {
         font-family: $ss-font-family;
         color: $background-color;
+        line-height: $base-line-height;
+        font-weight: 400;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    .page-link.active {
+        font-family: $ss-font-family;
+        color: $brand-color;
         line-height: $base-line-height;
         font-weight: 400;
 
