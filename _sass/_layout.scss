@@ -36,11 +36,11 @@
 }
 
 .menu-icon {
-    display: none; // Hidden by default
+    //display: none; // Hidden by default
     position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 1002;
+    top: 50px;
+    right: 50px;
+    z-index: 1009;
 
     svg {
         width: 30px;
@@ -134,10 +134,10 @@
 
 .page-link.active {
     //background-color: darken($background-color, 10%);  // Darkens the background color slightly for the active item.
-    color: $brand-color !important; // Adjust according to your preferred active link color.
+    color: $background-color !important; // Adjust according to your preferred active link color.
     //font-weight: 600;
     z-index: 1000;
-    text-decoration: underline;
+    text-decoration: underline $brand-color;
 }
 
 
