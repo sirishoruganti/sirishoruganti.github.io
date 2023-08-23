@@ -77,6 +77,12 @@
             width: 100%;
             background-color: $background-color; // match the navbar's background color
         }
+        .menu-icon {
+            display: block;  // Show the menu icon on small screens
+        }
+        .page-link {
+            display: none;  // Hide regular nav items on small screens
+        }
         
         .menu-icon.active + .trigger {
             display: block;
