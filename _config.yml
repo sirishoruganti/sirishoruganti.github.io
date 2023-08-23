@@ -33,6 +33,16 @@ logo: /assets/images/UVic_logo.png
 # Build settings
 markdown: kramdown
 
+navigation:
+  - title: Home
+    url: /
+  - title: Biography
+    url: /biography.html
+  - title: Publications
+    url: /publications.html
+  - title: Contact
+    url: /contact.html
+
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
