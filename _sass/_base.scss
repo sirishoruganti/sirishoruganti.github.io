@@ -258,6 +258,35 @@ pre {
 		margin-left:1.5%; 
 }
 
+#circular-frame {
+    max-width:600px; 
+    width:60%;
+    border-radius: 50%; /* This makes the frame circular */
+    display:inline; 
+    clear: none;
+    overflow: hidden; /* This hides any content of the image that might overflow the circular frame */
+    position: relative; /* Required for absolute positioning */
+    margin-left:1.5%; 
+    
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      border-radius: inherit;
+      backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+      z-index: -1;
+    }
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+  }
+
 #research-focus {
 		display:inline; 
 		float:right; 
