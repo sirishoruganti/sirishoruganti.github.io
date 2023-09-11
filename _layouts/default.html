@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+layout: compress
+---
 
-  {% include head.html %}
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
   <body>
 
-    {% include header.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
 
-    {% include footer.html %}
-    <script>
-      document.querySelector(".menu-icon").addEventListener("click", function() {
-        var trigger = document.querySelector(".trigger");
-        if(trigger.style.display === "none" || trigger.style.display === "") {
-            trigger.style.display = "block";
-        } else {
-            trigger.style.display = "none";
-        }
-      });
-    </script>
+    {% include scripts.html %}
 
   </body>
-  
-    
 </html>
