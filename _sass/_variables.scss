@@ -94,7 +94,8 @@ $link-color                 : $info-color;
 $link-color-hover           : mix(#ff0000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#0000ff, $primary-color, 25%);
+//$masthead-link-color-hover  : mix(#0000ff, $primary-color, 25%);
+$masthead-link-color-hover  : #0000ff;
 
 
 /*
