@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi. I'm Sirish. Welcome to mmy website!"
+title: "Hi. I'm Sirish. Welcome to my website!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
