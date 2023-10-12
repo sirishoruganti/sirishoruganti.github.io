@@ -1,8 +1,8 @@
 ---
 title: "Electronically tunable high gain current-mode instrumentation amplifier"
 collection: publications
-permalink: /publication/2018-01-01-Electronically-tunable-high-gain-current-mode-instrumentation-amplifier
-date: 2018-01-01
+permalink: /publication/2018-10-01-Electronically-tunable-high-gain-current-mode-instrumentation-amplifier
+date: 2018-10-01
 venue: 'AEU-International Journal of Electronics and Communications'
 citation: ' Sirish Oruganti,  Neeta Pandey,  Rajeshwari Pandey, &quot;Electronically tunable high gain current-mode instrumentation amplifier.&quot; AEU-International Journal of Electronics and Communications, 2018.'
 ---

@@ -1,8 +1,8 @@
 ---
 title: "29.2 Snap-SAT: A One-Shot Energy-Performance-Aware All-Digital Compute-in-Memory Solver for Large-Scale Hard Boolean Satisfiability Problems"
 collection: publications
-permalink: /publication/2023-01-01-292-Snap-SAT-A-One-Shot-Energy-Performance-Aware-All-Digital-Compute-in-Memory-Solver-for-Large-Scale-Hard-Boolean-Satisfiability-Problems
-date: 2023-01-01
+permalink: /publication/2023-02-01-292-Snap-SAT-A-One-Shot-Energy-Performance-Aware-All-Digital-Compute-in-Memory-Solver-for-Large-Scale-Hard-Boolean-Satisfiability-Problems
+date: 2023-02-01
 venue: '2023 IEEE International Solid-State Circuits Conference (ISSCC)'
 citation: ' Shanshan Xie,  Mengtian Yang,  S Lanham,  Yipeng Wang,  Meizhi Wang,  Sirish Oruganti,  Jaydeep Kulkarni, &quot;29.2 Snap-SAT: A One-Shot Energy-Performance-Aware All-Digital Compute-in-Memory Solver for Large-Scale Hard Boolean Satisfiability Problems.&quot; 2023 IEEE International Solid-State Circuits Conference (ISSCC), 2023.'
 ---
