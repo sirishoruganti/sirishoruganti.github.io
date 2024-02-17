@@ -1,7 +1,7 @@
 ---
 title: "CILP: An Arbitrary-bit Precision All-digital Compute-in- memory Solver for Integer Linear Programming Problems"
 
-authors:  Mengtian Yang,  Yipeng Wang,  Chieh-Pu Lo,  Shanshan Xie,  Meizhi Wang,  **Sirish Oruganti**,  Rishabh Sehgal,  Jaydeep Kulkarni
+authors:  Mengtian Yang,  Yipeng Wang,  Chieh-Pu Lo,  Shanshan Xie,  Meizhi Wang,  <bold>Sirish Oruganti</bold>,  Rishabh Sehgal,  Jaydeep Kulkarni
 collection: publications
 permalink: /publication/2024-04-01-CILP-An-Arbitrary-bit-Precision-All-digital-Compute-in-memory-Solver-for-Integer-Linear-Programming-Problems
 date: 2024-04-01
