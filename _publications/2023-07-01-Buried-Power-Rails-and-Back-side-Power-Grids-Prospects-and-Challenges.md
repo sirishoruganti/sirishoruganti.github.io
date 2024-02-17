@@ -1,5 +1,5 @@
 ---
-title: "Invited: Buried Power Rails and Back-side Power Grids: Prospects and Challenges"
+title: "Buried Power Rails and Back-side Power Grids: Prospects and Challenges"
 collection: publications
 permalink: /publication/2023-07-01-Buried-Power-Rails-and-Back-side-Power-Grids-Prospects-and-Challenges
 date: 2023-07-01
