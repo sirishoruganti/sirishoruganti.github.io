@@ -1,5 +1,6 @@
 ---
 title: "CILP: An Arbitrary-bit Precision All-digital Compute-in- memory Solver for Integer Linear Programming Problems"
+subtitle: "Authors go here!!"
 collection: publications
 permalink: /publication/2024-04-01-CILP-An-Arbitrary-bit-Precision-All-digital-Compute-in-memory-Solver-for-Integer-Linear-Programming-Problems
 date: 2024-04-01
