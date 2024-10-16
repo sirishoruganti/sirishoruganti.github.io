@@ -10,7 +10,7 @@ redirect_from:
 
 ![Alt Text](images/../../images/Cover_Image.mov)
 
-I'm a third year Ph.D. student at [Circuit Research Lab](https://sites.utexas.edu/CRL/), Chandra Department of Electrical and Computer Engineering, The University of Texas at Austin. I'm advised by [Prof. Jaydeep P. Kulkarni](https://www.ece.utexas.edu/people/faculty/jaydeep-kulkarni). 
+I'm a fourth year Ph.D. student at [Circuit Research Lab](https://sites.utexas.edu/CRL/), Chandra Department of Electrical and Computer Engineering, The University of Texas at Austin. I'm advised by [Prof. Jaydeep P. Kulkarni](https://www.ece.utexas.edu/people/faculty/jaydeep-kulkarni). 
 
 My research interests are Hardware Security, ASIC Accelerators and Compute-in-Memory designs. Previously, I was an Analog Design Engineer at Texas Instruments India, working in the High-Speed Signal Conditioning group. 
 
